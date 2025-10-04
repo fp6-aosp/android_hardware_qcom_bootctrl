@@ -49,7 +49,7 @@ extern "C" {
 #include <cutils/properties.h>
 #include "gpt-utils.h"
 
-#define BOOTDEV_DIR "/dev/block/bootdevice/by-name"
+#define BOOTDEV_DIR "/dev/block/by-name"
 #define BOOT_IMG_PTN_NAME "boot_"
 #define LUN_NAME_END_LOC 14
 #define BOOT_SLOT_PROP "ro.boot.slot_suffix"
